@@ -1,4 +1,4 @@
-# Proje Teknik Dokümantasyonu: Gerçek Zamanlı Sözdizimi Analiz Aracı
+# Proje Teknik Dokümantasyonu
 
 ## İçindekiler
 1. [Giriş ve Proje Amacı](#1-giriş-ve-proje-amacı)
