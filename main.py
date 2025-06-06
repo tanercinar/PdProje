@@ -247,7 +247,7 @@ class Parser:
 class SyntaxHighlighter(QWidget):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("Class-Based Stable Highlighter")
+        self.setWindowTitle("Gerçek Zamanlı Vurgulayıcı")
         self.lexer = Lexer()
         self.parser = Parser()
         self.tokenler = []
