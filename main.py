@@ -281,7 +281,7 @@ d=a/b
         self.editor.setStyleSheet("QTextEdit { background-color: #282c34; color: #abb2bf; }")
         self.editor.textChanged.connect(self.metin_degistiginde)
         self.agac_widget = QTreeWidget()
-        self.agac_widget.setHeaderLabel("Lexical Tree")
+        self.agac_widget.setHeaderLabel("Lexical Analiz")
         self.agac_widget.setStyleSheet("QTreeWidget { background-color: #282c34; color: #abb2bf; border: none; }")
         self.ayirici.addWidget(self.editor)
         self.ayirici.addWidget(self.agac_widget)
@@ -325,7 +325,7 @@ d=a/b
             self.ast = None
             self.hata_etiketi.setText(f"Unexpected Error: {e}")
         baslik = self.agac_widget.headerItem()
-        if baslik and baslik.text(0) == "Syntax Tree (AST)":
+        if baslik and baslik.text(0) == "Sözdizimi Ağacı":
             self.ast_agacini_goster()
         else:
             self.lexical_agaci_goster()
@@ -369,7 +369,7 @@ d=a/b
 
     def lexical_agaci_goster(self):
         #lexical analizi gösterir
-        self.agac_widget.setHeaderLabel("Lexical Tree")
+        self.agac_widget.setHeaderLabel("Lexical Analiz")
         self.agac_widget.clear()
         if not self.tokenler: return
         for token in self.tokenler:
@@ -378,7 +378,7 @@ d=a/b
 
     def ast_agacini_goster(self):
         #ast ağacını gösterir
-        self.agac_widget.setHeaderLabel("Syntax Tree (AST)")
+        self.agac_widget.setHeaderLabel("Sözdizimi Ağacı")
         self.agac_widget.clear()
         if self.ast:
             self._ast_agacini_doldur(self.agac_widget, self.ast)
