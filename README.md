@@ -56,4 +56,4 @@ Projenin teknik detayları, mimari kararları ve bileşenlerin çalışma prensi
 Projenin çalışma prensiplerini ve özelliklerini gösteren demo videosu ve teknik makaleye aşağıdaki linklerden ulaşabilirsiniz:
 
 -   **[Demo Video Linki]**
--   **[Teknik Makale Linki]**(https://medium.com/@taner.cinar87/ger%C3%A7ek-zamanl%C4%B1-s%C3%B6zdizimi-vurgulay%C4%B1c%C4%B1-ayr%C4%B1%C5%9Ft%C4%B1r%C4%B1c%C4%B1-ve-anlamsal-analizci-b348cb4d64ff)
+-   **[Makale Linki](https://medium.com/@taner.cinar87/ger%C3%A7ek-zamanl%C4%B1-s%C3%B6zdizimi-vurgulay%C4%B1c%C4%B1-ayr%C4%B1%C5%9Ft%C4%B1r%C4%B1c%C4%B1-ve-anlamsal-analizci-b348cb4d64ff)**
