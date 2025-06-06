@@ -4,6 +4,7 @@ from PyQt5.QtGui import QFont, QTextCharFormat, QColor, QTextCursor
 from PyQt5.QtCore import QTimer, Qt
 from PyQt5.QtWidgets import (QApplication, QTextEdit, QWidget, QVBoxLayout, QHBoxLayout, QLabel, QSplitter, QTreeWidget,QTreeWidgetItem, QPushButton)
 
+
 #hata tanımlamaları
 class SozcukselHata(Exception): pass
 class SozdizimselHata(Exception): pass
@@ -288,7 +289,7 @@ d=a/b
         self.hata_etiketi = QLabel()
         self.hata_etiketi.setStyleSheet("color: #e06c75;")
         ust_buton_duzeni = QHBoxLayout()
-        self.lex_buton = QPushButton("Lexical Ağaç")
+        self.lex_buton = QPushButton("Lexical Analiz")
         self.ast_buton = QPushButton("Sözdizimi Ağacı")
         self.deneme_buton = QPushButton("Örnek Kodu Yükle")
         ust_buton_duzeni.addWidget(self.lex_buton)
@@ -367,7 +368,7 @@ d=a/b
         self.editor.setTextCursor(yeni_imlec)
 
     def lexical_agaci_goster(self):
-        #lexical ağacı gösterir
+        #lexical analizi gösterir
         self.agac_widget.setHeaderLabel("Lexical Tree")
         self.agac_widget.clear()
         if not self.tokenler: return
